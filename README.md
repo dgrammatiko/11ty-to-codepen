@@ -75,9 +75,9 @@ console.log(foo(5));
 ```md
 codepen -> The shortcode (1st attr)
 
-"https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css", -> Any ext css (comma seperated) (2nd attr)
+"https://unpkg.com/bonsai.css@latest/dist/bonsai.min.css", -> Any ext css (semicolon seperated) (2nd attr)
 
-"https://unpkg.com/uhtml", -> Any ext js (comma seperated) (3rd attr)
+"https://unpkg.com/uhtml", -> Any ext js (semicolon seperated) (3rd attr)
 
 "Heyyy", -> Title of the pen (4th attr)
 
