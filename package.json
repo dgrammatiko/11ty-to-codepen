@@ -1,0 +1,34 @@
+{
+  "name": "11ty-to-codepen",
+  "version": "1.0.1",
+  "repository": "dgrammatiko/11ty-to-codepen",
+  "description": "A simple 11ty shortcode for automagically created pens on codepen!",
+  "module": "index.mjs",
+  "main": "index.js",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "author": {
+    "name": "Dimitris Grammatikogiannis",
+    "email": "d.grammatiko@gmail.com",
+    "url": "https://dgrammatiko.online"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "bugs": {
+    "url": "https://github.com/dgrammatiko/11ty-to-codepen/issues"
+  },
+  "homepage": "https://github.com/dgrammatiko/11ty-to-codepen#readme",
+  "keywords": [
+    "eleventy",
+    "11ty",
+    "codepen",
+    "example",
+    "shortcode"
+  ]
+}
