@@ -25,7 +25,7 @@ module.exports = (content, css, js, title, description, buttonText) => {
     data.css = cssContent[1];
   }
 
-  const jsContent = content.match(/```js([^`]*)```/);
+  const jsContent = content.match(/```js([\s\S]*?)```/);
   if (jsContent && jsContent.length) {
     data.js = jsContent[1];
   }

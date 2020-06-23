@@ -1,6 +1,6 @@
 {
   "name": "11ty-to-codepen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "dgrammatiko/11ty-to-codepen",
   "description": "A simple 11ty shortcode for automagically created pens on codepen!",
   "module": "index.mjs",
